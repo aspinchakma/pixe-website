@@ -1,7 +1,35 @@
 /* font link  */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* common style  */
 body{
     font-family: 'Roboto', sans-serif;
+}
+.moanoghar-residensital{
+    color:white;
+    padding:10px 15px;
+    background-color: #007bff;
+}
+.order-button-single-product:hover{
+    background-color: white;
+    color:#48868b;
+    border:1px solid #007bff;
+}
+.moanoghar-residensital:hover{
+    background-color: white;
+    color:#48868b;
+    border:1px solid #007bff;
+}
+.fab{
+    margin-left:8px;
+    color:white;
+    font-size:18px;
+    background-color:#aaa;
+    padding:8px;
+    border-radius: 9%;
+}
+.fab:hover{
+    color:#007bff;
+    background-color:white;
 }
 /* header  */
 /* nav section  */
@@ -127,18 +155,7 @@ footer{
     color:#4a4a4a;;
     font-size: 14px;
 }
-.fab{
-    margin-left:8px;
-    color:white;
-    font-size:18px;
-    background-color:#aaa;
-    padding:8px;
-    border-radius: 9%;
-}
-.fab:hover{
-    color:#007bff;
-    background-color:white;
-}
+
 /* contact us  */
 .contact-us-main-header{
     font-weight: 700;
@@ -148,5 +165,58 @@ footer{
 }
 .pixie-contact-us a{
     color:#007bff;
+}
+/* single products  */
+.single-product-header{
+    font-weight: 700;
+    font-size: 22px;
+
+}
+.single-product-header-title{
+    font-weight: 700;
+}
+.single-product-header-title span{
+    color:#007bff;
+    font-size:17px;
+}
+.single-product-para{
+    color:#4a4a4a;
+    font-size:14px;
+    margin-top:20px;
+    margin-bottom: 30px;
+}
+.product-stock{
+    color:#007bff;
+    font-size:14px;
+}
+.order-single-product{
+    width:44px;
+    height:44px;
+    text-align: center;
+    margin-left: 10px;
+}
+.order-button-single-product{
+    margin-left:15px;
+    color:white;
+    padding:10px 15px;
+    background-color: #007bff;
+}
+.catagory-span a{
+    text-decoration:none;
+    color:#aaa;
+    font-size: 14px;
+    margin-left:5px;
+}
+.catagory-span a:hover{
+    color:#007bff;
+}
+.card{
+    overflow:hidden;
+}
+.card img:hover{
+    transform: scale(1.07);
+    transition: transform 1.3s ease;
+    
+
 }
 
