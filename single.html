@@ -88,9 +88,70 @@
                         </p>
                         <p class="product-stock">7 left on stock
                         </p>
-                        <p>Quantity : <input class="order-single-product" type="number" placeholder="1"> <button
-                                class="btn  order-button-single-product">ORDER
-                                NOW!</button> </p>
+                        <p>Quantity : <input class="order-single-product" type="number" placeholder="1">
+                            <!-- Button trigger modal -->
+                            <button class="btn  order-button-single-product" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">ORDER
+                                NOW!</button>
+                        </p>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Sign into your account
+
+                                        </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="row mb-3">
+                                                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                                                <div class="col-sm-10">
+                                                    <input type="email" class="form-control" id="inputEmail3">
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label for="inputPassword3"
+                                                    class="col-sm-2 col-form-label">Password</label>
+                                                <div class="col-sm-10">
+                                                    <input type="password" class="form-control" id="inputPassword3">
+                                                </div>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="gridCheck1"
+                                                    required>
+                                                <label class="form-check-label" for="gridCheck1">
+                                                    I accept the Terms of Service
+                                                </label>
+                                            </div>
+                                            <a href="#" style="text-decoration: none;">
+                                                <div class="d-grid gap-2">
+                                                    <button class="btn moanoghar-residensital my-2" type="button" ">LOG
+                                                        IN</button>
+                                                </div>
+                                            </a>
+                                            
+                                            <p class=" forget-password"><a href="pixie-payment.html" target="_blank">Or
+                                                            Buy As An
+                                                            Anonymous</a>
+                                                        </p>
+                                                        <p class=" forget-password"><a href="#" target="_blank">Forgot
+                                                                password?</a>
+                                                        </p>
+                                                        <p class="forget-password">Don't have an account? <a href="#"
+                                                                target="_blank">Register here</a>
+
+                                                        </p>
+
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <p class="catagory-span">Category: <a href="#">Pants,</a><a href="#">Women,</a> <a
                                 href="#">Lifestyle</a>
                         </p>
@@ -118,6 +179,8 @@
                     <label for="floatingInput">Email address</label>
                 </div>
                 <button class="btn subscribe-button">SUBSCRIBE NOW</button>
+
+
             </div>
         </section>
     </main>
