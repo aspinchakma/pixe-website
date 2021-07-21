@@ -213,9 +213,10 @@ footer{
 .card{
     overflow:hidden;
 }
-.card img:hover{
-    transform: scale(1.07);
-    transition: transform 1.3s ease;
+.card:hover{
+    /* transform: scale(1.06);
+    transition: transform 0.7s ease-in-out; */
+    box-shadow: 0px 0px 10px lightgrey;
     
 
 }
